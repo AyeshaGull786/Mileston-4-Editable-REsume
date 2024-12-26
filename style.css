@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe6f7; /* Light pink background */
+  color: #333;
+}
+
+.resume-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-header {
+  text-align: center;
+  color: #d56e8b; /* Light pink header */
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.editable-section {
+  margin-bottom: 30px;
+}
+
+.editable-section h2 {
+  color: #d56e8b; /* Light pink section titles */
+  font-size: 1.8rem;
+}
+
+.info-field {
+  margin-bottom: 20px;
+}
+
+.info-field label {
+  font-size: 1.1rem;
+  display: block;
+  color: #d56e8b;
+}
+
+.editable-input {
+  width: 70%;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+}
+
+.editable-input:focus {
+  outline: none;
+  border-color: #d56e8b;
+}
+
+/* Save Button next to each input */
+.save-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 1.2rem;
+  background-color: #d56e8b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.save-btn:hover {
+  background-color: #b74e6d;
+}
